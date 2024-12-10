@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+     margin: 50px;
+     padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hace que los links se pongan uno al lado del otro en vez de en vertical*/
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgba(1, 0, 10, 0.2);
+}
+
+.container {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(1, 0, 10, 0.1);
+}
